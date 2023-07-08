@@ -1,0 +1,99 @@
+@import url(https://fonts.googleapis.com/css?family=Overpass:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+body{
+    margin:0;
+}
+*{
+    box-sizing:border-box;
+}
+.bgcontainer{
+    background-color:#121417;
+    min-height:100vh;
+    min-width:375px;
+    max-width:1440px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    font-family:"Overpass";
+}
+.dis{
+    display:none;
+}
+h1{
+    color:white;
+    font-weight:700;
+}
+p{
+    font-size:15px;
+    font-weight:400;
+    color:#959EAC;
+}
+.ratingstart{
+    background-color:#252D37;
+    padding:20px;
+    border-radius:25px;
+    border-width:0px;
+}
+.ratings-container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+}
+.star{
+    background-color:#44494f;
+    height:40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    border-radius:50%;
+}
+.one,.two,.three,.four,.five{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color:#44494f;
+    color:#959EAC;
+    font-size:15px;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    padding:20px;
+}
+.button1{
+    margin-top:15px;
+    background-color:#FB7413;
+    color:white;
+    border-width:0px;
+    border-radius:50px;
+    width:100%;
+    height:36px;
+    padding:15px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+
+}
+.one:hover,.two:hover,.three:hover,.four:hover,.five:hover{
+    background-color:#FB7413;
+}
+.button1:hover{
+    background-color:white;
+    color:#FB7413;
+}
+.activestate{
+    background-color: #959EAC;
+    color:white;
+}
+.par{
+    background-color:#44494f;
+    padding:15px;
+    display: flex;
+    align-items:center;
+    justify-content : center;
+    color:#FB7413;
+    height:35px;
+    margin:auto;
+    width:250px;
+    border-radius:30px;
+}
